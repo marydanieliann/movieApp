@@ -1,0 +1,14 @@
+GET http://localhost:8080/movies
+###
+
+POST http://localhost:8080/movies
+Content-Type: application/json
+
+{
+  "title" : "Micheal  Boy",
+  " director" : "Tansformers dark of the mood"
+}
+###
+
+GET http://localhost:8080/movies/1
+###
